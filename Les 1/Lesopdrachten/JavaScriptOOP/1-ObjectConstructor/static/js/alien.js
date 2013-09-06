@@ -5,7 +5,7 @@
  */
 
 
-function Alien(name) { 
+function Persoon(name) { 
 	this.name = name;
 	
 	this.speak = function () {
@@ -15,8 +15,8 @@ function Alien(name) {
 	// console.log("This issss: " + this.constructor);
 }
 
-var rob = new Alien('Robert Rock');
-var roberta = new Alien('Roberta Rock');
+var bob = new Persoon('Bob');
 
 
-rob.speak();
+
+bob.speak();
